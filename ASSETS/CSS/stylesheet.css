@@ -1,0 +1,318 @@
+body
+{
+    margin:0;
+    background-color:#1D2123;
+}
+/* bannière */
+header
+{
+    background-image: url(../IMG/banniere.png);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.headerText
+{
+    display: flex;
+    flex-direction: column;   
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+.headerText > p
+{
+    color: #C7C7C7;
+    font-family: rubik, sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+/* Barre de navigation */
+nav
+{
+    background-color: #1D2123;
+    font-family: Karla, sans-serif;
+}
+.navbar-brand
+{
+    color: #179FA7;
+}
+.nav-link
+{
+    color: #C7C7C7;
+    font-size: 18px;
+    transition: 0.8s;
+}
+.nav-link:hover
+{
+    color: #179FA7;
+    border-bottom: #179FA7 1px solid;
+    transition: 0.8s;
+}
+.navbar-toggler-icon
+{
+    color: #C7C7C7;
+}
+i
+{
+    color: #C7C7C7;
+}
+/* Page de Présentation */
+#homePage
+{
+    background-color: #1D2123;
+    font-family: Karla, sans-serif;
+    height: 100vh;
+}
+#imageavatar
+{
+    height: 400px;
+    width: 400px;
+}
+h1
+{
+    color: #179FA7 ;
+    font-family: Rubik, sans-serif;
+    text-align: center;
+}
+.jobName
+{
+    color: #C7C7C7;
+    font-size: 25px;
+}
+.homeText
+{
+    color: #C7C7C7;
+    font-size: 18px;
+}
+.homeTextItalic
+{
+    color: #C7C7C7;
+    font-style: italic;
+    font-size: 18px;
+}
+hr
+{
+    /* border: none; */
+    border-top: 3px solid #C7C7C7;
+    color: #C7C7C7;
+    text-align: center;
+    width: 50%;
+}
+/* Page des compétences */
+h2
+{
+    font-family: Rubik, sans-serif;
+    color: #C7C7C7;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+}
+#skillPage
+{
+    background-image: url(../IMG/banniere2.png) ;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#skillPage > .container-fluid
+{
+    color: #C7C7C7;
+    font-family: Karla, sans-serif;
+    font-size: 18px;
+}
+.imgSkill
+{
+    height: 80px;
+    width: 80px;
+    margin: 2%;  
+}
+.col
+{
+    text-align: center;
+    background-color: rgba(29, 33, 35, 0.7);
+}
+/* page des formations */
+#trainingPage
+{
+    height: 100vh;
+}
+p
+{
+    color: #C7C7C7;
+    font-family: Karla, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.textTraining
+{
+    font-family: Karla, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.dateTextTraining
+{
+    font-family: Karla, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+#trainingPage .col
+{
+    background-color: #C7C7C7;
+    border-bottom: 3px solid #179FA7;
+    border-right: 3px solid #179FA7;
+}
+#trainingPage .col:hover
+{
+    background-color: #179FA7;
+}
+.pTraining
+{
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+#languageImg img
+{
+    width: 60px;
+    height: 45px;
+}
+#languageImg .col-3
+{
+    background-color: #1D2123;
+    color: #C7C7C7;
+}
+/* page des experiences */
+#experiencePage
+{
+    background-image: url(../IMG/banniere2.png) ;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#experiencePage li
+{
+    font-family: Karla, sans-serif;
+    font-size: 18px;
+}
+#lemonartSite
+{
+    border-bottom: 3px solid rgba(23, 159, 167, 0.6);
+    border-right: 3px solid rgba(23, 159, 167, 0.6) ;
+}
+#experiencePage .col-4
+{
+    color: #1D2123;
+    background-color: #C7C7C7;
+    border-bottom: 3px solid #D21736);
+    border-right: 3px solid #D21736 ;
+}
+
+#lemonartSite:hover
+{
+    background-color:rgba(210, 23, 54, 0.6);
+    color: #C7C7C7;
+    
+    swashOut
+}
+.ulExperience
+{
+    list-style-type: none;
+}
+#lineTimeline
+{
+    border-top: 5px solid #D21736;
+    color: #C7C7C7;
+    text-align: center;
+    width: 90%;
+}
+#arrowExperience
+{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: -100px;
+    top: 3px;
+}
+#experiencePage a
+{
+    text-decoration: none;
+    color: #1D2123;
+}
+/* Page du portfolio */
+#portfolioPag
+{
+    height: 70vh;
+}
+#portfolioPage p h5
+{
+    background-color: rgba(29, 33, 35, 0.7);
+}
+#carouselPortfolio
+{
+   height: 70%;
+   width: 80%; 
+}
+#portfolioPage a
+{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+#portfolioPage a:hover
+{
+    color: #179FA7;
+}
+/* Page des hobbies */
+#hobbiesPage
+{
+    background-image: url(../IMG/banniere2.png) ;
+    width: 100%;
+    height: 80vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#hobbiesPage img
+{
+    height: 80px;
+    width: 80px;
+}
+#hobbiesPage .col
+{
+    background-color: rgba(29, 33, 35, 0.7);
+}
+#hobbiesPage p
+{
+   margin-top: 5%;
+
+}
+/* Page contact */
+#contactPage img
+{
+    height: 90px;
+    width: 90px;
+}
+#contactPage
+{
+    height: 70vh;
+    width: ;
+}
+#contactPage img:hover
+{
+    border: 3px solid #D21736;
+}
+/* Pied de page */
+footer
+{
+    background-image: url(../IMG/banniere2.png);
+    width: 100%;
+    height: 15vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+a:hover
+{
+    color: #179FA7;
+}

@@ -346,6 +346,12 @@ p
 {
     color: #179FA7;
 }
+/* Page portfolio mobile */
+#portfolioPageMobile{
+    display: none;
+}
+
+
 /* Page des hobbies */
 #hobbiesPage
 {
@@ -456,5 +462,12 @@ a:hover
       .left {
         left: 0%;
       }
-    
+      /* Page portfolio */
+    #portfolioPage{
+        display: none;
+        }
+    /* Page portfolio mobile */
+    #portfolioPageMobile{
+        display: block;
+        }
 }

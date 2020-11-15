@@ -115,14 +115,10 @@ h2
     margin-top: 3%;
     text-transform: uppercase;
 }
-#skillsPageMobile > *
-{
-    display: none;
-    /* height: 0;
-    overflow: hidden;  */
-}
+
 #skillPage
 {
+    display: block;
     background-image: url(../IMG/banniere2.png) ;
     width: 100%;
     height: 100vh;
@@ -145,6 +141,10 @@ h2
 {
     text-align: center;
     background-color: rgba(29, 33, 35, 0.7);
+}
+#skillsPageMobile > *
+{
+    display: none;
 }
 /* ----------------------------------  page des formations --------------------------------------*/
 #trainingPage
@@ -201,30 +201,18 @@ p
     background-color: #1D2123;
     color: #C7C7C7;
 }
-/* ----------------------------------------------- page des experiences -----------------------------*/
-#experiencePage
-{
-    background-image: url(../IMG/banniere2.png) ;
-    width: 100%;
-    height: 100vh;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-
-
 /* --------------------------------------------   timeline CSS ------------------------ */
 #experiencePage
 {
     background-image: url(../IMG/banniere2.png) ;
     background-size: contain;
-    height: 120vh;
+   
+    /* height: 120vh; */
 }
 #timelineContainer
 {
     display: grid;
     width: 100%;
-    
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 6fr 1fr 6fr;
     grid-template-areas: 
@@ -292,12 +280,11 @@ p
     border-radius: 8%;
     box-shadow: 3px 3px 6px #D21736;
 }
-/* ------------------------------ Page portfolio mobile ---------------------------*/
-#portfolioPageMobile{
-    display: none;
+/* ------------------------------ Page portfolio  ---------------------------*/
+#portfolioPage
+{
+   /* background-color: #D21736; */
 }
-
-
 /* -----------------------------  Page des hobbies ---------------------------------*/
 #hobbiesPage
 {
@@ -347,7 +334,7 @@ a:hover
     color: #179FA7;
 }
 /* ----------------------------------------------- MEDIA QUERIES ----------------------------------------------------------------------- */
-@media screen and (max-width: 600px)
+@media screen and (max-width: 800px)
 {
     .headerText > p
     {
@@ -356,10 +343,25 @@ a:hover
     }
     #skillsPageMobile > *
     {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         background-image: url(../IMG/banniere2.png) ;
-        height: 150vh;
+        height: 80vh;
         background-size: contain;
+    }
+    #accordion h3
+    {
+        background-color: #179FA7;
+        color: #1D2123;
+        font-family: Karla, sans-serif;
+        font-weight: bold;
+        border: 1px solid #179FA7;
+    }
+    #accordion div
+    {
+        background-color: #1D2123;
+        border: 1px solid #179FA7;
     }
     #skillsPageMobile .col
     {
@@ -367,7 +369,7 @@ a:hover
     }
     #skillsPageMobile .img
     {
-        height: 40%;
+        /* height: 40%; */
     }
     #skillPage
     {
@@ -375,15 +377,20 @@ a:hover
     }
     #trainingPage
     {
-        height: 210vh;
+        height: 200vh;
     }
     /* Timeline */
+    #experiencePage
+    {
+        display: block;
+        background-color: green;
+    }
     #timelineContainer
     {
         display: grid;
         width: 100%;
-        height: 200vh;
-        background-image: url(../IMG/banniere2.png) ;
+        /* height: 200vh; */
+        /* background-image: url(../IMG/banniere2.png) ; */
         background-size: contain;
         grid-template-columns: 10% 80%;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -392,6 +399,10 @@ a:hover
         "case5 case8"
         "case5 case2"
         "case5 case6";
+    }
+    #case2, #case4, #case6, #case8
+    {
+        /* height: 50%; */
     }
     #case5
     {

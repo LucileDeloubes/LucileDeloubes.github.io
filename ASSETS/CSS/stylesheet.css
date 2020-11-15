@@ -149,7 +149,7 @@ h2
 /* ----------------------------------  page des formations --------------------------------------*/
 #trainingPage
 {
-    height: 100vh;
+    /* height: 100vh; */
 }
 p
 {
@@ -201,7 +201,7 @@ p
     background-color: #1D2123;
     color: #C7C7C7;
 }
-/* --------------------------------------------   timeline CSS ------------------------ */
+/* --------------------------------------------  Experience Page - timeline  ------------------------ */
 #experiencePage
 {
     background-image: url(../IMG/banniere2.png) ;
@@ -377,7 +377,7 @@ a:hover
     }
     #trainingPage
     {
-        height: 200vh;
+        /* height: 200vh; */
     }
     /* Timeline */
     #experiencePage
@@ -393,14 +393,14 @@ a:hover
         /* background-image: url(../IMG/banniere2.png) ; */
         background-size: contain;
         grid-template-columns: 10% 80%;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 1fr 1fr 1fr;
         grid-template-areas: 
         "case5 case4"
         "case5 case8"
         "case5 case2"
         "case5 case6";
     }
-    #case2, #case4, #case6, #case8
+    #case4
     {
         /* height: 50%; */
     }

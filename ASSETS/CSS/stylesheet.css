@@ -146,6 +146,10 @@ h2
 {
     display: none;
 }
+#skillsPageMobileTitle
+{
+    display: none;
+}
 /* ----------------------------------  page des formations --------------------------------------*/
 #trainingPage
 {
@@ -209,10 +213,13 @@ p
    
     /* height: 120vh; */
 }
+
 #timelineContainer
 {
     display: grid;
     width: 100%;
+    font-family: Karla, sans-serif;
+    color: #1D2123;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 6fr 1fr 6fr;
     grid-template-areas: 
@@ -220,14 +227,12 @@ p
     "case5 case5 case5 case5"
     "case6 case7 case8 case9";
 }
-#timelineContainer h3
+#timelineContainer h5
 {
-  color: #1D2123;  
+  color: #1D2123; 
+  font-weight: bold; 
 }
-#timelineContainer p
-{
-  color: #1D2123;  
-}
+
 #case1
 {
     grid-area: case1;
@@ -235,7 +240,7 @@ p
 #case2
 {
     grid-area: case2;
-    background-color: #C7C7C7;
+    background-color: rgba(199, 199, 199, 0.8);
     height: 95%;
 }
 #case3
@@ -245,7 +250,7 @@ p
 #case4
 {
     grid-area: case4;
-    background-color: #C7C7C7;
+    background-color: rgba(199, 199, 199, 0.8);
     height: 95%;
 }
 #case5
@@ -258,7 +263,7 @@ p
 #case6
 {
     grid-area: case6;
-    background-color: #C7C7C7;
+    background-color: rgba(199, 199, 199, 0.8);
     height: 95%;
 }
 #case7
@@ -268,7 +273,7 @@ p
 #case8
 {
     grid-area: case8;
-    background-color: #C7C7C7;
+    background-color:rgba(199, 199, 199, 0.8);
     height: 95%;
 }
 #case9
@@ -279,6 +284,11 @@ p
 {
     border-radius: 8%;
     box-shadow: 3px 3px 6px #D21736;
+}
+.experienceDates
+{
+    background-color: rgba(210, 23, 54, 0.2);
+    
 }
 /* ------------------------------ Page portfolio  ---------------------------*/
 #portfolioPage
@@ -341,6 +351,10 @@ a:hover
        background-color:  rgba(29, 33, 35, 0.8);
        border-radius: 40%;
     }
+    #skillsPageMobileTitle
+    {
+        display: block;
+    }
     #skillsPageMobile > *
     {
         display: flex;
@@ -361,7 +375,6 @@ a:hover
     #accordion div
     {
         background-color: #1D2123;
-        border: 1px solid #179FA7;
     }
     #skillsPageMobile .col
     {

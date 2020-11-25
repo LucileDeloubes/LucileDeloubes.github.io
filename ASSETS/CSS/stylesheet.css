@@ -348,8 +348,8 @@ a:hover
 {
     #imageavatar
     {
-        
-        width: 250px;
+        max-height:  250px;
+        max-width: 250px;
     }
     .headerText > p
     {

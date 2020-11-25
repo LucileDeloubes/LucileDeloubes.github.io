@@ -71,8 +71,8 @@ i
 }
 #imageavatar
 {
-    height: 400px;
-    width: 400px;
+    
+    width: 500px;
 }
 h1
 {
@@ -116,7 +116,7 @@ h2
     text-transform: uppercase;
 }
 
-#skillPage
+#skillPageDesktop
 {
     display: block;
     background-image: url(../IMG/banniere2.png) ;
@@ -326,7 +326,7 @@ p
 }
 #contactPage
 {
-    height: 70vh;
+    height: 65vh;
    
 }
 
@@ -346,6 +346,11 @@ a:hover
 /* ----------------------------------------------- MEDIA QUERIES ----------------------------------------------------------------------- */
 @media screen and (max-width: 800px)
 {
+    #imageavatar
+    {
+        
+        width: 250px;
+    }
     .headerText > p
     {
        background-color:  rgba(29, 33, 35, 0.8);
@@ -360,7 +365,6 @@ a:hover
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: url(../IMG/banniere2.png) ;
         height: 80vh;
         background-size: contain;
     }
@@ -374,7 +378,7 @@ a:hover
     }
     #accordion div
     {
-        background-color: #1D2123;
+        background-image: url(../IMG/banniere2.png) ;
     }
     #skillsPageMobile .col
     {
@@ -384,7 +388,7 @@ a:hover
     {
         /* height: 40%; */
     }
-    #skillPage
+    #skillPageDesktop
     {
        display: none;
     }
@@ -431,3 +435,4 @@ a:hover
     }
 
 }
+/* commentaire lalala*\ 

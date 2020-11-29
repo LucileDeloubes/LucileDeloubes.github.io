@@ -125,7 +125,7 @@ h2
     background-size: contain;
     
 }
-#skillPage > .container-fluid
+#skillPageDesktop > .container-fluid
 {
     color: #C7C7C7;
     font-family: Karla, sans-serif;
@@ -190,6 +190,7 @@ p
 {
     background-color: #179FA7;
 }
+
 .pTraining
 {
     margin-bottom: 3%;
@@ -251,7 +252,7 @@ p
 {
     grid-area: case4;
     background-color: rgba(199, 199, 199, 0.8);
-    height: 40%;
+    height: 80%;
 }
 #case5
 {
@@ -264,7 +265,7 @@ p
 {
     grid-area: case6;
     background-color: rgba(199, 199, 199, 0.8);
-    height: 80%;
+    height: 90%;
 }
 #case7
 {
@@ -359,6 +360,7 @@ a:hover
     #skillsPageMobileTitle
     {
         display: block;
+        margin-bottom: 20%;
     }
     #skillsPageMobile > *
     {
@@ -433,6 +435,9 @@ a:hover
     #case1, #case3, #case7, #case9{
         display: none;
     }
+    #contactPage
+    {
+      height: 55vh;
+    }
 
 }
-/* commentaire lalala*\ 
